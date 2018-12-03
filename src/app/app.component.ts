@@ -17,5 +17,4 @@ export class AppComponent {
   title = 'angular-ivy';
 }
 
-
 renderComponent(AppComponent as ComponentType<AppComponent>);
