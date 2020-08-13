@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "angular-ivy"
+  "defaultProject": "angular-ivy",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,5 +1,5 @@
 import {
-  Component ,
+  Component,
   ɵrenderComponent as renderComponent,
   ɵComponentType as ComponentType
 } from '@angular/core';
@@ -9,12 +9,12 @@ import {
   selector: 'app-hello',
   template: `
     <h1>
-      Welcome to {{ title }}!
+      <p style="text-align:center; font-weight: bold;"> Welcome To {{ title }}! </p>
     </h1>
   `,
 })
 export class AppComponent {
-  title = 'angular-ivy';
+  title = 'Angular Ivy Compiler';
 }
 
 renderComponent(AppComponent as ComponentType<AppComponent>);
